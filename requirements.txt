@@ -1,0 +1,6 @@
+llama-index==0.5.27
+openai==0.10.3
+chainlit==0.1.2
+wikipedia-api==0.5.4
+pydantic==2.0.2
+PyYAML==6.0
