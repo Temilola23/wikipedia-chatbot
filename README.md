@@ -75,13 +75,13 @@ Make sure `apikeys.yml` is added to your `.gitignore` to avoid exposing your API
 3. When the chatbot comes up:
   * Go to settings
   * select the model you desire:
-    [Model Selection](assets/screenshots/Model Selection.png)
+    ![Model Selection](assets/screenshots/Model Selection.png)
   * Ask the chatbot to begin indexing a wikipedia page, following the format: `please index: {page you want to index}`:
-    [Chatbot request](assets/screenshots/Chatbot request.png)
+    ![Chatbot request](assets/screenshots/Chatbot request.png)
   * Your terminal shows the progess of indexing:
-    [Terminal Indexing](assets/screenshots/Terminal Indexing.png)
+    ![Terminal Indexing](assets/screenshots/Terminal Indexing.png)
   * You should receive a message saying the page indexing was a success in Chainlit UI:
-    [Indexing Success](assets/screenshots/Indexing Success.png)
+    ![Indexing Success](assets/screenshots/Indexing Success.png)
   * You can go ahead and query the chatbot afterwards
 
 
