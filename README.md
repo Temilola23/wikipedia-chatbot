@@ -75,14 +75,14 @@ Make sure `apikeys.yml` is added to your `.gitignore` to avoid exposing your API
 3. When the chatbot comes up:
   * Go to settings
   * select the model you desire:
-    ![Model Selection](assets/screenshots/Model Selection.png)
-  * Ask the chatbot to begin indexing a wikipedia page, following the format: `please index: {page you want to index}`:
-    ![Chatbot request](assets/screenshots/Chatbot request.png)
-  * Your terminal shows the progess of indexing:
-    ![Terminal Indexing](assets/screenshots/Terminal Indexing.png)
+    ![Model Selection](assets/screenshots/ModelSelection.png)
+  * Ask the chatbot to begin indexing a Wikipedia page, following the format: `please index: {page you want to index}`:
+    ![Chatbot request](assets/screenshots/ChatbotRequest.png)
+  * Your terminal shows the progress of indexing:
+    ![Terminal Indexing](assets/screenshots/TerminalIndexing.png)
   * You should receive a message saying the page indexing was a success in Chainlit UI:
-    ![Indexing Success](assets/screenshots/Indexing Success.png)
-  * You can go ahead and query the chatbot afterwards
+    ![Indexing Success](assets/screenshots/IndexingSuccess.png)
+  * You can go ahead and query the chatbot afterward.
 
 
 ## Project Structure
@@ -92,6 +92,8 @@ The project is organized as follows:
   ├── chainlit/                     # Contains Chainlit-specific configurations
   │   ├── translations/             # Holds translation files for localization
   │   └── config.toml               # Chainlit configuration file
+  ├── assets/                       # Contains file assets
+  │   ├── screenshots/              # Holds image files
   ├── .gitignore                    # Specifies files and directories to ignore in version control
   ├── apikeys.yml                   # Holds the OpenAI API key (not included in version control)
   ├── chat_agent.py                 # The main chatbot logic and conversation handling script
